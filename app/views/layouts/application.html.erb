@@ -10,9 +10,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<header>    
+  <h1>Vicki</h1>
+  <p>
+  <%= link_to "Home", '/' %>
+  <%= link_to "Portfolio", '/portfolio' %>
+  </p>
+
+</header>
 <body>
 
 <%= yield %>
 
 </body>
+<footer> I'll add links later. </footer>
 </html>
